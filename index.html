@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+           
+        }
+        body{
+            background-color:#FAFAFA;
+
+        }
+       
+        .header{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8%;
+            width: 65%;
+             margin: auto;
+            
+        }
+        .head2{
+            width: 40%;
+           font-family: 'Poppins', sans-serif;
+        }
+        .head1{
+            width: 40%;
+             font-family: 'PT Serif', serif;
+             
+        }
+        .row2{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 70%;
+            margin: auto;
+            height: 480px;
+        }
+        .row1{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 70%;
+            margin: auto;
+            height: 480px;
+        }
+        #img2{
+            align-self: flex-end;
+        }
+        
+        .gl-image{
+            width: 238px;
+        }
+        .images{
+            margin-top: 6%;
+            font-family: 'Poppins', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            background-color: #000;
+            height: 25px;
+            width: 120px;
+            display: block;
+            color: white;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .crd-footer{
+            height: 50px;
+            width: 80px;
+        }
+       .p1,.p3,.p4,.p6{
+        height: 500px;
+       }
+
+       @media only screen and (max-width: 600px) and (min-width: 350px)  {
+        .header{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8%;
+            width: 100%;
+            flex-wrap: wrap;
+             
+        }
+        .head2{
+            width: 100%;
+           font-family: 'Poppins', sans-serif;
+        }
+        .head1{
+            width: 100%;
+             font-family: 'PT Serif', serif;
+             
+        }
+        .row1{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 72%;
+            
+            height: 480px;
+        }
+        .gl-image{
+            width: 138px;
+        }
+        #img2{
+            align-self: flex-end;
+            height: auto;
+        }
+        .p1, .p3, .p4, .p6 {
+    height: auto;
+
+}
+.mob{
+    position: relative !important;
+    top: 30px !important;
+}
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="header">
+        <div class="head1"><h1>the Creative crew</h1></div>
+        <div class="head2">
+            <h5>who we are</h5>
+            <p>we are team of Creative diverse driven innovative individual working various locaton from the world</p>
+        </div>
+       </div>
+       <div class="images">
+        <div class="row1">
+            <div class="p1">
+                <img class="gl-image" src="photo1.png" alt="">
+                <h4>Billy mahoney</h4>
+                <div class="crd-footer"><a href="#">Downloade</a></div>
+                
+            </div>
+           
+            <div class="p2 mob1"  id="img2">
+                <img class="gl-image" src="photo2.png" alt="">
+                <h4>Saba cabera</h4>
+                <a href="#">Downloade</a>
+            </div>
+            <div class="p3">
+                <img class="gl-image" src="photo3.png" alt="">
+                <h4>shae le</h4>
+                <a href="#">Downloade</a>
+            </div>
+            <div class="p4 mob1">
+                <img class="gl-image" src="photo4.png" alt="">
+                <h4>Billy mahoney</h4>
+                <a href="#">Downloade</a>
+            </div>
+           
+            <div class="p5" id="img2">
+                <img class="gl-image" src="photo5.png" alt="">
+                <h4>Saba cabera</h4>
+                <a href="#">Downloade</a>
+            </div>
+            <div class="p6 mob1">
+                <img class="gl-image" src="photo6.png" alt="">
+                <h4>shae le</h4>
+                <a href="#">Downloade</a>
+            </div>
+            
+        </div>
+     <!--  <div class="row2">
+            <div class="p4">
+                <img class="gl-image" src="photo4.png" alt="">
+                <h4>Billy mahoney</h4>
+                <a href="#">Downloade</a>
+            </div>
+           
+            <div class="p5" id="img2">
+                <img class="gl-image" src="photo5.png" alt="">
+                <h4>Saba cabera</h4>
+                <a href="#">Downloade</a>
+            </div>
+            <div class="p6">
+                <img class="gl-image" src="photo6.png" alt="">
+                <h4>shae le</h4>
+                <a href="#">Downloade</a>
+            </div>
+            
+        </div>--> 
+       </div>
+    </div>
+</body>
+</html>
